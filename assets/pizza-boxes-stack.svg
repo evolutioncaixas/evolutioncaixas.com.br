@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" width="560" height="480" role="img" aria-labelledby="stackTitle">
+  <title id="stackTitle">Pilha de caixas de pizza personalizadas Evolution Caixas, prontas para entrega</title>
+  <defs>
+    <linearGradient id="kraft1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E3C79A"/>
+      <stop offset="100%" stop-color="#CBA96F"/>
+    </linearGradient>
+    <linearGradient id="kraft2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D9BA88"/>
+      <stop offset="100%" stop-color="#BE9A5E"/>
+    </linearGradient>
+    <filter id="dShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="280" cy="450" rx="220" ry="20" fill="#000000" opacity="0.10"/>
+
+  <g filter="url(#dShadow)">
+    <!-- bottom box -->
+    <rect x="70" y="330" width="420" height="70" rx="8" fill="url(#kraft2)"/>
+    <rect x="70" y="330" width="420" height="14" rx="7" fill="#A9895C"/>
+    <rect x="150" y="345" width="140" height="40" rx="6" fill="#D80000"/>
+    <text x="220" y="371" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="#fff">PIZZARIA</text>
+
+    <!-- middle box, offset -->
+    <rect x="110" y="240" width="360" height="70" rx="8" fill="url(#kraft1)"/>
+    <rect x="110" y="240" width="360" height="14" rx="7" fill="#B99457"/>
+    <rect x="180" y="255" width="120" height="40" rx="6" fill="#3C8C0F"/>
+    <text x="240" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="#fff">SABOR+</text>
+
+    <!-- top box, offset -->
+    <rect x="160" y="150" width="260" height="70" rx="8" fill="url(#kraft2)"/>
+    <rect x="160" y="150" width="260" height="14" rx="7" fill="#A9895C"/>
+    <circle cx="210" cy="185" r="18" fill="#D80000"/>
+    <path d="M198 185 h24 M210 173 v24" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <text x="300" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="15" fill="#5c3b16">40cm</text>
+  </g>
+</svg>
